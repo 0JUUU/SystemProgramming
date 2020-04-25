@@ -1,0 +1,11 @@
+SUB 		START	  3000
+   		LDA	  FIFTEEN
+		SUB	  #5
+		SUB	  FOUR
+		STA	  ALPHA
+		RSUB
+.
+FIFTEEN		WORD	  15
+FOUR		WORD 	  4
+ALPHA		RESW	  1
+		END	  SUB
